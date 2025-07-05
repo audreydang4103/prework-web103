@@ -8,7 +8,6 @@ function CreatorCard({ creator, onDelete }) {
         }
     };
 
-    const socials = creator.socials || {};
     return (
         <div className="card-imgbg">
             {creator.imageURL ? (
@@ -21,9 +20,15 @@ function CreatorCard({ creator, onDelete }) {
                     <div className="card-imgbg-name">{creator.name}</div>
                     <div className="card-imgbg-description">{creator.description}</div>
                     <div className="card-imgbg-socials">
-                        <a href={socials.instagram || '#'} target="_blank" rel="noopener noreferrer"><FaInstagram /></a>
-                        <a href={socials.youtube || '#'} target="_blank" rel="noopener noreferrer"><FaYoutube /></a>
-                        <a href={socials.tiktok || '#'} target="_blank" rel="noopener noreferrer"><FaTiktok /></a>
+                        {creator.instagram && (
+                            <a href={creator.instagram} target="_blank" rel="noopener noreferrer"><FaInstagram /></a>
+                        )}
+                        {creator.youtube && (
+                            <a href={creator.youtube} target="_blank" rel="noopener noreferrer"><FaYoutube /></a>
+                        )}
+                        {creator.tiktok && (
+                            <a href={creator.tiktok} target="_blank" rel="noopener noreferrer"><FaTiktok /></a>
+                        )}
                     </div>
                 </div>
                 <div className="card-imgbg-actions">
