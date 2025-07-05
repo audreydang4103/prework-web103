@@ -1,0 +1,14 @@
+a {
+  font-weight: 500;
+  color: inherit;
+  text-decoration: inherit;
+}
+
+a:hover {
+  opacity: 0.8;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
