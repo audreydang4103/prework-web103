@@ -1,8 +1,8 @@
-# WEB103 Prework - *👉🏿 Name of App Here*
+# WEB103 Prework - *Creatorverse*
 
 Submitted by: **Audrey Dang**
 
-About this web app: ****
+About this web app: a frontend that supports CRUD (create, read, update, and delete) operations on my favorite content creators and influencers.
 
 Time spent: **25 hours**
 
@@ -30,5 +30,5 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-👉🏿<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+![](https://github.com/audreydang4103/prework-web103/blob/main/Walkthrough.gif)
 
