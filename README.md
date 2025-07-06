@@ -25,7 +25,7 @@ The following **optional** features are implemented:
 - [x] The content creator items are displayed in a creative format, like cards instead of a list
 - [x] An image of each content creator is shown on their content creator card
 
-## Website Link: https://creatorverse1.netlify.app/
+**Website Link:** https://creatorverse1.netlify.app/
 
 ## Video Walkthrough
 
